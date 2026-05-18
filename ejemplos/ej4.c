@@ -7,6 +7,9 @@ int main() {
     printf("Valor de s1: %s\n", s1); // Imprime "Abc"
     printf("Size de s1: %zu\n", sizeof(s1)); // Imprime el tamaño de s1
 
+    s1++; // Avanza el puntero s1 al siguiente carácter
+    printf("Valor de s1: %s\n", s1); // Imprime "bc"
+
     printf("Valor de s2: %s\n", s2); // Imprime "Abc"
     printf("Size de s2: %zu\n", sizeof(s2)); // Imprime el tamaño de s2
 
